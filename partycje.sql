@@ -1,4 +1,4 @@
-
+-- oczywiscie nalezy zmienic takie rzeczy jak filename do tych plików z filegroup (np. linijka 29) czy wyszukiwaną datę (linijka 132), oraz pamietac zeby sprobowac stworzyc te partycje miedzy utworzeniem bazy danych a utworzeniem tabel
 select * from sys.master_files where database_id=db_id('Sklep_Temp')
 
 
